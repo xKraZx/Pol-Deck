@@ -5,6 +5,719 @@
 	(uuid "653fee09-60af-4ff9-bcce-52e593d583e2")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 22.225 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
+				(rectangle
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 15.494)
+					(end 9.144 14.986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -8.89 3.81)
+					(mid -6.985 5.7067)
+					(end -5.08 3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -3.81)
+					(mid -6.985 -5.7067)
+					(end -8.89 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -4336,13 +5049,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -4350,7 +5059,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
-				(at 0 6.35 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4359,8 +5068,8 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4391,7 +5100,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4413,7 +5122,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4424,9 +5133,9 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
+			(symbol "MountingHole_0_1"
 				(circle
-					(center 0 1.27)
+					(center 0 0)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -4434,26 +5143,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -4933,643 +5622,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_JLCPCB-Extended:Connector, USB-TYPE-C-16P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Connector, USB-TYPE-C-16P"
-				(at 2.54 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:TYPE-C-SMD_HX-TYPE-C-16PIN"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220920/0EF8F885FCCEA71F60E9E85152155021.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "3A 1 Horizontal attachment 16P Female -25℃~+85℃ Type-C SMD USB Connectors ROHS"
-				(at 2.54 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C2927039"
-				(at 2.54 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C2927039"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Connector, USB-TYPE-C-16P_0_0"
-				(rectangle
-					(start -0.254 -17.78)
-					(end 0.254 -16.764)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 15.494)
-					(end 9.144 14.986)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 10.414)
-					(end 9.144 9.906)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 2.794)
-					(end 9.144 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 0.254)
-					(end 9.144 -0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.286)
-					(end 9.144 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -4.826)
-					(end 9.144 -5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -12.446)
-					(end 9.144 -12.954)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -14.986)
-					(end 9.144 -15.494)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Connector, USB-TYPE-C-16P_0_1"
-				(rectangle
-					(start -10.16 17.78)
-					(end 10.16 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -3.81) (xy -8.89 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -3.81)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -8.89 3.81)
-					(mid -6.985 5.7067)
-					(end -5.08 3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -3.81)
-					(mid -6.985 -5.7067)
-					(end -8.89 -3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 1.143)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.842) (xy 0 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.905 1.778)
-					(end 3.175 3.048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Connector, USB-TYPE-C-16P_1_1"
-				(pin bidirectional line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8256,12 +8308,6 @@
 		(uuid "0a5f67f9-5f48-482e-8078-9706782dfd5c")
 	)
 	(junction
-		(at 97.79 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0dae4a66-ec39-422c-95e8-84d6061b8a93")
-	)
-	(junction
 		(at 340.36 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8272,12 +8318,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17f622f5-12ef-4726-9141-7fcffc48fae1")
-	)
-	(junction
-		(at 82.55 255.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "198952d3-1b1c-4631-8d54-3f9042b7e1f4")
 	)
 	(junction
 		(at 303.53 208.28)
@@ -8400,16 +8440,16 @@
 		(uuid "8cfbd3f7-eb5f-4b87-953f-9911fccf0c15")
 	)
 	(junction
+		(at 97.79 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9006de4f-e573-48d7-b62a-cd83835be503")
+	)
+	(junction
 		(at 109.22 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "912f42a4-6fc3-495d-b119-143812a6e707")
-	)
-	(junction
-		(at 388.62 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95233e84-1d30-4fcd-ab7a-29ccc2c31178")
 	)
 	(junction
 		(at 267.97 208.28)
@@ -8418,16 +8458,16 @@
 		(uuid "965bcc90-248f-40a1-b097-e7abe950cc6a")
 	)
 	(junction
-		(at 97.79 234.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fb96492-e2e2-42d3-8738-a94e9dc738d6")
-	)
-	(junction
 		(at 104.14 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5447af5-92ab-4008-be18-64e27fc11fd0")
+	)
+	(junction
+		(at 392.43 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a66c9b2c-470b-4cd6-bbcd-becb957f2766")
 	)
 	(junction
 		(at 124.46 35.56)
@@ -8478,6 +8518,12 @@
 		(uuid "e236662d-0188-44f3-8761-ac3d56f560ee")
 	)
 	(junction
+		(at 97.79 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5158e77-52f8-41d4-bfb9-d2aadc144d14")
+	)
+	(junction
 		(at 245.11 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8518,6 +8564,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6e38dcd-7594-4fb0-9077-13c9b090e0e8")
+	)
+	(junction
+		(at 82.55 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f96830c7-c552-424d-9d89-33e6edb34f5e")
 	)
 	(junction
 		(at 78.74 45.72)
@@ -8647,7 +8699,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "04e299ad-6ae2-4fd2-a20a-985251ba97be")
+		(uuid "03e775d9-e578-4bd8-9eb7-5ef373bb5a03")
 	)
 	(wire
 		(pts
@@ -8658,6 +8710,16 @@
 			(type default)
 		)
 		(uuid "05027c6d-edbc-4c9f-b951-a930a5351ffe")
+	)
+	(wire
+		(pts
+			(xy 364.49 80.01) (xy 372.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0512f4f0-6507-4809-a377-7a436bcd535e")
 	)
 	(wire
 		(pts
@@ -8718,16 +8780,6 @@
 			(type default)
 		)
 		(uuid "08bd2d54-bd6e-4b70-ac2a-3861041c2c54")
-	)
-	(wire
-		(pts
-			(xy 384.81 46.99) (xy 384.81 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0914894b-c5b8-46e4-b062-6a4939a746bc")
 	)
 	(wire
 		(pts
@@ -8808,16 +8860,6 @@
 			(type default)
 		)
 		(uuid "0d2766a7-2b7d-4d22-acd3-a62cfa4e07c4")
-	)
-	(wire
-		(pts
-			(xy 364.49 80.01) (xy 372.11 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "105dd092-e2ee-40e1-9b60-1b43a0ad5453")
 	)
 	(wire
 		(pts
@@ -8961,7 +9003,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 198.12) (xy 388.62 204.47)
+			(xy 392.43 198.12) (xy 392.43 204.47)
 		)
 		(stroke
 			(width 0)
@@ -8988,16 +9030,6 @@
 			(type default)
 		)
 		(uuid "1d13feb1-f6f5-4eaf-8219-e41d7c3e5f06")
-	)
-	(wire
-		(pts
-			(xy 375.92 46.99) (xy 375.92 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21487fae-8ea6-4857-999e-67b943864301")
 	)
 	(wire
 		(pts
@@ -9201,7 +9233,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 227.33) (xy 392.43 229.87)
+			(xy 392.43 232.41) (xy 392.43 234.95)
 		)
 		(stroke
 			(width 0)
@@ -9418,6 +9450,16 @@
 			(type default)
 		)
 		(uuid "427e1cba-7c9b-4c0d-9f43-b699cb7b282d")
+	)
+	(wire
+		(pts
+			(xy 392.43 222.25) (xy 387.35 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d183c2-d12d-4c18-a2d1-5764319636e2")
 	)
 	(wire
 		(pts
@@ -9691,16 +9733,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 31.75) (xy 375.92 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ab76d25-acaa-49bb-b260-829a34ef1948")
-	)
-	(wire
-		(pts
 			(xy 339.09 35.56) (xy 354.33 35.56)
 		)
 		(stroke
@@ -9778,6 +9810,16 @@
 			(type default)
 		)
 		(uuid "62096980-f9b8-43ac-8822-b979b24385a5")
+	)
+	(wire
+		(pts
+			(xy 388.62 219.71) (xy 388.62 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62618d93-f090-49f7-9f80-c4fe4d2db33d")
 	)
 	(wire
 		(pts
@@ -10111,16 +10153,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 212.09) (xy 388.62 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8116b1cb-b42d-47e6-a0e8-b5778f7dffb4")
-	)
-	(wire
-		(pts
 			(xy 118.11 234.95) (xy 128.27 234.95)
 		)
 		(stroke
@@ -10208,16 +10240,6 @@
 			(type default)
 		)
 		(uuid "8a941424-220c-45c6-b11c-b59ddd10f6df")
-	)
-	(wire
-		(pts
-			(xy 388.62 219.71) (xy 392.43 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b2259c2-9722-497b-9052-74a8db608a92")
 	)
 	(wire
 		(pts
@@ -10821,7 +10843,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 227.33) (xy 387.35 227.33)
+			(xy 374.65 227.33) (xy 388.62 227.33)
 		)
 		(stroke
 			(width 0)
@@ -10868,16 +10890,6 @@
 			(type default)
 		)
 		(uuid "d2f60c27-6680-48f2-9ae2-c57442aecbba")
-	)
-	(wire
-		(pts
-			(xy 387.35 227.33) (xy 387.35 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3920bd8-20a7-4a14-832a-455631dca61c")
 	)
 	(wire
 		(pts
@@ -11131,6 +11143,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 224.79) (xy 392.43 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e947c771-622d-4df1-820d-6dfdcc03ba24")
+	)
+	(wire
+		(pts
 			(xy 86.36 41.91) (xy 86.36 45.72)
 		)
 		(stroke
@@ -11178,16 +11200,6 @@
 			(type default)
 		)
 		(uuid "ecd2af89-ac1f-4469-9ad5-12037fa7243c")
-	)
-	(wire
-		(pts
-			(xy 384.81 31.75) (xy 384.81 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edb67f94-3ea4-4cb4-a02a-2091c01f5b7d")
 	)
 	(wire
 		(pts
@@ -11321,6 +11333,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 212.09) (xy 392.43 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe431c2c-2f02-422e-ab58-d83e02a8172f")
+	)
+	(wire
+		(pts
 			(xy 299.72 72.39) (xy 314.96 72.39)
 		)
 		(stroke
@@ -11418,6 +11440,26 @@
 			(justify left bottom)
 		)
 		(uuid "0c563656-7315-4184-8acb-4ffa680756a7")
+	)
+	(label "USB_P"
+		(at 99.06 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eacf35f-cf83-4bc5-8451-baccc0379c18")
+	)
+	(label "USB_N"
+		(at 99.06 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16a5751b-95fb-494b-89b5-21732b5b237b")
 	)
 	(label "MOSI(SDI)"
 		(at 299.72 67.31 0)
@@ -12390,7 +12432,7 @@
 		(uuid "d8e74fdc-e0e9-42be-a2de-50552c4ebd7a")
 	)
 	(label "XOUT"
-		(at 388.62 198.12 270)
+		(at 392.43 198.12 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12520,6 +12562,82 @@
 		(uuid "ff3cbfde-b3d7-4294-a59d-09fc1cfe863e")
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 374.65 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02a4d3ab-16c4-4e62-807b-f504a9abdb84")
+		(property "Reference" "H1"
+			(at 377.19 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 377.19 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 374.65 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 374.65 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Deck_Mainboard"
+				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 135.89 227.33 0)
 		(unit 1)
@@ -12531,7 +12649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "099d4ca1-2f0b-4f0d-8788-bc06eb2732dd")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR011"
 			(at 135.89 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -12591,7 +12709,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12609,7 +12727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c141f10-d7e0-4aec-93bc-f090a880f184")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 165.1 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12620,7 +12738,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 165.1 224.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12631,7 +12749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 162.2552 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -12673,7 +12791,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12691,7 +12809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c7bdff6-ad91-477b-a9ce-eafcf83a94d7")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 283.21 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12713,7 +12831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 280.3652 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -12755,7 +12873,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12773,7 +12891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cfa9932-e957-4912-bf58-93f61e0747b0")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR031"
 			(at 356.87 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12833,7 +12951,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR019")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12851,7 +12969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e2ec0ee-cdde-478c-b0f0-10a75b233c54")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 257.81 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12873,7 +12991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 253.492 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -12915,7 +13033,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12933,7 +13051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "155111b5-38ea-4810-b8e4-ed3f0793cca2")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 347.98 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12955,7 +13073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 343.662 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -12997,7 +13115,83 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R6")
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 384.81 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1697c12c-d591-4866-93ef-d5109c9b8604")
+		(property "Reference" "H2"
+			(at 387.35 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 387.35 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 384.81 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.81 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 384.81 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Deck_Mainboard"
+				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13015,7 +13209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17671d61-cc53-4f89-a439-32a71ce8c1ad")
-		(property "Reference" "C19"
+		(property "Reference" "C16"
 			(at 307.34 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13037,7 +13231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 304.4952 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -13079,7 +13273,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C19")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -13097,7 +13291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17b92dae-160c-4bc3-8ff5-84151f422eaf")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR030"
 			(at 353.06 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -13157,7 +13351,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR02")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13253,7 +13447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1870a5ba-7359-4a5e-9927-a06632bf9a61")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 283.21 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13275,7 +13469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 280.3652 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -13317,7 +13511,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13335,7 +13529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bbf8b60-354d-464a-9a73-606dd4fcb767")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR014"
 			(at 191.77 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -13395,7 +13589,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR03")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13412,7 +13606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c1f390f-435a-4f54-9101-ee48e537028e")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 130.048 227.076 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13432,7 +13626,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 128.27 226.568 90)
 			(hide yes)
 			(show_name no)
@@ -13474,7 +13668,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13492,7 +13686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f014373-8876-491e-9479-430cee36f872")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR013"
 			(at 191.77 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -13552,7 +13746,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR06")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -13570,7 +13764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2040003f-dd24-4fe9-a6fc-5823aaa1025d")
-		(property "Reference" "C3"
+		(property "Reference" "C8"
 			(at 260.35 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13592,7 +13786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 257.5052 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -13634,7 +13828,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C3")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13651,7 +13845,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21114473-b7ae-4797-91d0-b2524615b538")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 271.272 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13733,7 +13927,87 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "U5")
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 387.35 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "269e5aaf-d6a3-40d9-8776-659b7a871784")
+		(property "Reference" "SW2"
+			(at 387.35 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOOTSEL"
+			(at 387.35 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 387.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 387.35 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bc7f3311-c6c0-4b1e-8583-865fbd8ab491")
+		)
+		(pin "1"
+			(uuid "170519c2-8ec5-4f40-a278-0e1fc1d84d48")
+		)
+		(instances
+			(project "Deck_Mainboard"
+				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -13773,7 +14047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 345.44 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13844,7 +14118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b90f406-512f-4587-8240-df009bd96e29")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR01"
 			(at 41.91 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13904,7 +14178,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR045")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -13921,7 +14195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cf48dc6-4c92-4eec-a7fb-2d6864798c40")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 361.95 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13943,7 +14217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
 			(at 359.41 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14015,85 +14289,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 375.92 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3093b269-4bb6-477b-a5f1-84b21b6e835d")
-		(property "Reference" "#PWR027"
-			(at 375.92 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 375.92 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 375.92 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68152d66-e061-43d4-bb23-61bc99c682fa")
-		)
-		(instances
-			(project "Deck_Mainboard"
-				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR027")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -14111,7 +14307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c435a2-88c8-4d89-981d-4580ab1779ed")
-		(property "Reference" "C18"
+		(property "Reference" "C15"
 			(at 294.64 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14133,7 +14329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 291.7952 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -14175,7 +14371,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C18")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -14192,7 +14388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32c55d02-3fc0-46a6-83ba-4cca6a2359d9")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR042"
 			(at 396.24 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -14252,7 +14448,83 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR011")
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 374.65 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "367fb4b8-1a05-4b41-a216-1cb30b8d346f")
+		(property "Reference" "H3"
+			(at 377.19 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 377.19 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 374.65 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 374.65 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Deck_Mainboard"
+				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14270,7 +14542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36d3aad4-3480-4e01-aef9-bcda43136eef")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR012"
 			(at 161.29 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -14330,7 +14602,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR05")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14348,7 +14620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39c70871-7de2-41a2-af90-6bb40359e492")
-		(property "Reference" "C13"
+		(property "Reference" "C10"
 			(at 271.78 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14370,7 +14642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 268.9352 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -14412,7 +14684,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -14429,7 +14701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b58a170-93e2-4f09-a4d9-6b695b700557")
-		(property "Reference" "R12"
+		(property "Reference" "R2"
 			(at 71.12 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14449,7 +14721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 71.12 88.138 90)
 			(hide yes)
 			(show_name no)
@@ -14491,7 +14763,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R12")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14509,7 +14781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4405292b-82ec-43c7-ba1f-2ede9ba13ccb")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR04"
 			(at 78.74 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -14569,7 +14841,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR046")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14586,7 +14858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "440c42f2-88e4-48d0-9029-a78a75d869f1")
-		(property "Reference" "R17"
+		(property "Reference" "R9"
 			(at 322.58 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14606,7 +14878,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 322.58 144.018 90)
 			(hide yes)
 			(show_name no)
@@ -14648,243 +14920,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 384.81 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4517131a-8a1d-42de-82c7-62b626c45fe6")
-		(property "Reference" "H2"
-			(at 387.35 26.6699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MH"
-			(at 387.35 29.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 384.81 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 384.81 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 384.81 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2cc82ee-1557-444d-9cf9-73599d760034")
-		)
-		(instances
-			(project "Deck_Mainboard"
-				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 375.92 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "455f7222-e051-4bef-a39a-dbfbd4c9eb96")
-		(property "Reference" "H1"
-			(at 378.46 26.6699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MH"
-			(at 378.46 29.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 375.92 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6a52dba-bae4-4c1e-adf2-99c092e2be43")
-		)
-		(instances
-			(project "Deck_Mainboard"
-				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 375.92 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "457fd165-57a0-4b04-b20d-d4b9823ce966")
-		(property "Reference" "#PWR024"
-			(at 375.92 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 375.92 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 375.92 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9b8d8ce-fa2b-460d-a985-ae5c69f5ca6d")
-		)
-		(instances
-			(project "Deck_Mainboard"
-				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR024")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -14902,7 +14938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bdf4606-1259-424f-ad45-f6a0fecd7134")
-		(property "Reference" "C20"
+		(property "Reference" "C17"
 			(at 318.77 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14924,7 +14960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 315.9252 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -14966,7 +15002,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C20")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -14983,7 +15019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e046230-51d5-4a2c-bdd4-0b8e6070d497")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR03"
 			(at 53.34 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15043,7 +15079,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR042")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15061,7 +15097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5452f0f7-9fd5-4825-a139-2ed81bc8463f")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR07"
 			(at 113.03 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -15121,7 +15157,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR048")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15139,7 +15175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "555a1ad0-50a9-4c7d-bdfc-896be3288bfd")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR028"
 			(at 345.44 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -15199,7 +15235,83 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR09")
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 374.65 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c36386b-bf47-48f5-a3a0-de27ba495b5e")
+		(property "Reference" "H5"
+			(at 377.19 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 377.19 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 374.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 374.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Deck_Mainboard"
+				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -15216,7 +15328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d2927a1-3468-4f0f-9b49-411b5c270498")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 130.048 219.964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15236,7 +15348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 128.27 224.028 90)
 			(hide yes)
 			(show_name no)
@@ -15278,7 +15390,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -15296,7 +15408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "605c583f-da13-42a8-894c-3119de4e93b2")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR015"
 			(at 205.74 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -15356,7 +15468,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR07")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15373,7 +15485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6883f817-6b79-4dbc-95b7-2b3a27f147db")
-		(property "Reference" "C24"
+		(property "Reference" "C3"
 			(at 71.12 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15395,7 +15507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 79.7052 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15437,7 +15549,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C24")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -15455,7 +15567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d430342-5fe5-4b03-a1fc-3bb01595e55f")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 388.62 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15475,7 +15587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 388.62 81.788 90)
 			(hide yes)
 			(show_name no)
@@ -15517,7 +15629,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -15535,7 +15647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f1df30b-0bbc-42df-baeb-829d8a7edca3")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 342.9 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15557,7 +15669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 338.582 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -15599,7 +15711,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -15617,7 +15729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "700ff93c-dec8-479b-95b0-9cd1d7ce3971")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 290.83 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -15677,7 +15789,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -15695,7 +15807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7154e95d-bb83-4661-8965-c23b2cc028bd")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR018"
 			(at 255.27 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -15755,7 +15867,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR035")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15773,7 +15885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71bca70d-8070-4282-97f3-f1917d57a200")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 384.81 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15840,7 +15952,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "J2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -15858,7 +15970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "754f7835-b603-429b-bd15-2970cc5216b4")
-		(property "Reference" "C21"
+		(property "Reference" "C18"
 			(at 330.2 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15880,7 +15992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 327.3552 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -15922,7 +16034,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C21")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -15940,7 +16052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d1c6010-3bda-4711-a5f6-d91d11f20d92")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 209.55 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15962,7 +16074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 206.7052 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -16004,7 +16116,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -16022,7 +16134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e23bad5-44c1-425a-aaae-36c353c6e234")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR019"
 			(at 267.97 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16082,7 +16194,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR031")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -16100,7 +16212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "839ec69a-d720-4ca1-82d2-be3c98096412")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR06"
 			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -16160,7 +16272,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR043")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -16178,7 +16290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "842bc46c-d247-46c0-8ba4-48eac9595222")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 264.16 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16266,7 +16378,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -16284,7 +16396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b105d95-e4ef-4e5d-8e29-1245ab4b204d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR021"
 			(at 267.97 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16344,7 +16456,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR026")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -16362,7 +16474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8de17f85-38da-4da1-b049-b42132c6d66a")
-		(property "Reference" "C15"
+		(property "Reference" "C20"
 			(at 389.89 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16384,7 +16496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 387.0452 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -16426,7 +16538,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C15")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -16444,7 +16556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92f12c75-9ae8-47ae-9840-3d0073c5e30d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR016"
 			(at 210.82 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -16504,7 +16616,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR08")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -16521,7 +16633,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "935d511b-6435-4c15-9b7a-a519ddbba0e8")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR032"
 			(at 367.03 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -16581,87 +16693,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 387.35 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94021c4e-7cf2-4b0a-95c0-58ef3ca68a11")
-		(property "Reference" "SW1"
-			(at 387.35 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BOOTSEL"
-			(at 387.35 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 387.35 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 387.35 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe8aa57c-15e8-4ca4-bd7c-fb037a462351")
-		)
-		(pin "2"
-			(uuid "336ff331-dd7b-45b6-9049-6249819cc43b")
-		)
-		(instances
-			(project "Deck_Mainboard"
-				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "SW1")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16679,7 +16711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94033845-f29b-44c5-9613-ddb6fb546750")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR08"
 			(at 113.03 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -16739,7 +16771,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR036")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -16979,84 +17011,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 384.81 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "975f85f4-be0e-4f11-a7d5-860c91af3947")
-		(property "Reference" "#PWR037"
-			(at 384.81 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 384.81 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 384.81 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 384.81 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 384.81 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "13b0cd5f-ef35-4156-b882-a2292d14f6fb")
-		)
-		(instances
-			(project "Deck_Mainboard"
-				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 245.11 212.09 0)
 		(unit 1)
@@ -17068,7 +17022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cc23ffb-a17c-455b-a141-9bf79b61cb5c")
-		(property "Reference" "C2"
+		(property "Reference" "C7"
 			(at 248.92 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17090,7 +17044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 246.0752 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -17132,7 +17086,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C2")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -17150,7 +17104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ce12930-2d37-4633-aac1-667913491f5a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR039"
 			(at 386.08 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -17210,7 +17164,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR028")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -17228,7 +17182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dde6da4-6b03-4180-82b8-4bb26162cc12")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 264.16 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17310,7 +17264,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -17405,9 +17359,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2ab67d5-2769-476e-a449-7781f79dac7e")
-		(property "Reference" "C22"
+		(property "Reference" "C1"
 			(at 34.29 65.786 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17419,7 +17372,6 @@
 		)
 		(property "Value" "4.7u"
 			(at 34.29 68.326 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17429,7 +17381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 42.8752 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -17471,7 +17423,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C22")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -17489,7 +17441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3c5cc58-c894-4743-b334-f8a70f849727")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR027"
 			(at 340.36 127 0)
 			(hide yes)
 			(show_name no)
@@ -17549,7 +17501,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR013")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17566,7 +17518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a65a0298-9d91-45f7-ae11-f12f61de3cc0")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR041"
 			(at 393.7 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -17626,7 +17578,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR014")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -17644,7 +17596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c74bb4-367e-418b-98f5-db126a155ecc")
-		(property "Reference" "C16"
+		(property "Reference" "C13"
 			(at 292.1 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17666,7 +17618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 289.2552 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -17708,7 +17660,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C16")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -17725,7 +17677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a84bec02-4e69-4ca3-8c4c-34105d50e868")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 108.712 227.076 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17815,86 +17767,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 375.92 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8de730b-c277-40c5-9557-9689e9b1865e")
-		(property "Reference" "H3"
-			(at 378.46 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MH"
-			(at 378.46 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 375.92 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "46e76a52-e3d1-4202-ab7a-85c4ce6aaf40")
-		)
-		(instances
-			(project "Deck_Mainboard"
-				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "H3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -18010,7 +17883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b131d3f4-895d-4318-aea9-120f144497cf")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR02"
 			(at 41.91 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -18070,7 +17943,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR047")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -18088,7 +17961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7aadfae-67eb-4786-bcec-f00fc6c22f46")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 82.55 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -18148,7 +18021,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -18165,7 +18038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7b7d15b-f1a0-490f-b760-dd01422828df")
-		(property "Reference" "R15"
+		(property "Reference" "R7"
 			(at 241.3 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18185,7 +18058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 241.3 142.748 90)
 			(hide yes)
 			(show_name no)
@@ -18227,7 +18100,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R15")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18244,7 +18117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b84139cd-d127-4a6f-83d7-8d2930d5cadf")
-		(property "Reference" "R18"
+		(property "Reference" "R12"
 			(at 374.65 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18264,7 +18137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 374.65 127.508 90)
 			(hide yes)
 			(show_name no)
@@ -18306,7 +18179,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R18")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -18392,133 +18265,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Extended:Connector, USB-TYPE-C-16P")
-		(at 82.55 232.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b94a51f1-5cc6-4cd8-b648-e3dfb067d2bb")
-		(property "Reference" "J5"
-			(at 82.55 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Connector, USB-TYPE-C-16P"
-			(at 85.09 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:TYPE-C-SMD_HX-TYPE-C-16PIN"
-			(at 82.55 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220920/0EF8F885FCCEA71F60E9E85152155021.pdf"
-			(at 80.264 232.283 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "3A 1 Horizontal attachment 16P Female -25℃~+85℃ Type-C SMD USB Connectors ROHS"
-			(at 85.09 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2927039"
-			(at 85.09 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A7"
-			(uuid "c8485c31-37e7-407e-bcf2-79f3a1f51198")
-		)
-		(pin "A9B4"
-			(uuid "38621da3-9819-4ea9-92c2-9b6359ed0526")
-		)
-		(pin "B5"
-			(uuid "8eb3e2e5-c70e-4b23-94a1-91fc7894145f")
-		)
-		(pin "A12B1"
-			(uuid "36bde1f8-bbab-4b1b-8b7d-f925bffc0126")
-		)
-		(pin "A6"
-			(uuid "445a0d56-5b49-4084-87aa-b75115b4729b")
-		)
-		(pin "B6"
-			(uuid "559efc46-e1ea-4866-9f3b-128612f03f9b")
-		)
-		(pin "B9A4"
-			(uuid "fb9c29d6-2bfb-403e-88da-0ad96a934750")
-		)
-		(pin "B7"
-			(uuid "9dcdf135-a1f0-4cce-98f3-796d4128207c")
-		)
-		(pin "B8"
-			(uuid "3943519e-41a8-43ee-898d-55956fc7949a")
-		)
-		(pin "B12A1"
-			(uuid "e8c9a81b-edda-45ef-9bff-09228e7dd5bf")
-		)
-		(pin "S1"
-			(uuid "7a0f0ce4-96c5-40b9-9e5a-dddb1dee96b6")
-		)
-		(pin "A5"
-			(uuid "b3c305f7-d69e-45a3-9a9d-06d2f6e7b292")
-		)
-		(pin "A8"
-			(uuid "5b665a8a-87c1-4a1b-842e-e4ee0cc95bbb")
-		)
-		(instances
-			(project "Deck_Mainboard"
-				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_RaspberryPi:RP2350B")
 		(at 113.03 111.76 0)
 		(unit 1)
@@ -18530,7 +18276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b97325ff-2c08-41e9-8e38-b4f5ee7a4e25")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 121.666 168.148 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18853,7 +18599,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -18871,7 +18617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc8f997d-8aeb-419b-86b3-ef44fcf8015a")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR026"
 			(at 326.39 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -18931,7 +18677,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR016")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -18949,7 +18695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be3edfa7-a2fa-4d9b-b389-abce26ddc56b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR020"
 			(at 267.97 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -19009,7 +18755,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR032")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -19026,7 +18772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be9f72f6-d0ad-4188-92ae-41585fb2e216")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR025"
 			(at 303.53 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -19087,7 +18833,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR038")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -19104,8 +18850,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c722fe9c-afc8-43dd-ba3a-8785baedd471")
-		(property "Reference" "SW2"
+		(uuid "c21510c9-8bf8-48a8-bdf9-914fdaaca708")
+		(property "Reference" "SW1"
 			(at 377.19 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19125,7 +18871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 377.19 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -19158,16 +18904,16 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "aca4024f-f8c6-4943-a9aa-f1150baca597")
-		)
 		(pin "2"
-			(uuid "9559176b-8ce9-4674-8b2e-4b363479be86")
+			(uuid "c67d0af1-4641-41d1-9d49-ed9e6a0e4b2e")
+		)
+		(pin "1"
+			(uuid "f5a117a0-7c7f-4d85-9590-8670a32baa5c")
 		)
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -19185,7 +18931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca62b9b7-0d62-4e67-8a31-2c870a2d77e8")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR010"
 			(at 124.46 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19245,7 +18991,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR044")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -19263,7 +19009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdbab51d-2a30-4205-a1a1-5ee7e0ce1502")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR038"
 			(at 386.08 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -19323,7 +19069,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR030")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -19340,7 +19086,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfe1ed15-b2b3-4539-b927-5b96cecd0582")
-		(property "Reference" "C7"
+		(property "Reference" "C19"
 			(at 350.266 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19362,7 +19108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 357.8352 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -19404,7 +19150,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C7")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -19412,7 +19158,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 388.62 208.28 0)
+		(at 392.43 208.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19422,8 +19168,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1420c49-500c-4ff0-9d1e-498fc81ce8c0")
-		(property "Reference" "R10"
-			(at 391.16 207.0099 0)
+		(property "Reference" "R14"
+			(at 394.97 207.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19434,7 +19180,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 391.16 209.5499 0)
+			(at 394.97 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19444,8 +19190,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 386.842 208.28 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 390.652 208.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19456,7 +19202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 388.62 208.28 0)
+			(at 392.43 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19467,7 +19213,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 388.62 208.28 0)
+			(at 392.43 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19486,7 +19232,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -19504,7 +19250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d288a866-e12a-4474-8a82-21f84ee882e5")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR022"
 			(at 288.29 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -19564,7 +19310,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR033")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -19582,7 +19328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d40eb5db-3b7e-43ee-8ea6-b124a15b983c")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG04"
 			(at 177.8 210.185 0)
 			(hide yes)
 			(show_name no)
@@ -19642,7 +19388,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#FLG05")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -19660,7 +19406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4bc1937-2102-49d5-8314-9aebacbe9857")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR023"
 			(at 288.29 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19720,15 +19466,15 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR034")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 384.81 33.02 0)
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 82.55 232.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19737,9 +19483,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d71977f2-608b-4c40-925f-c74d674aed54")
-		(property "Reference" "#PWR025"
-			(at 384.81 39.37 0)
+		(uuid "d5271d99-eedb-4ee8-a684-fc0a9e04d7ea")
+		(property "Reference" "J8"
+			(at 82.55 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 82.55 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "deckLib:USB_C_4805"
+			(at 86.36 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19749,18 +19515,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 384.81 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 384.81 33.02 0)
+		(property "Datasheet" "https://www.tme.eu/Document/6e869db7cfb62f8ca413fe1f327b3225/usb4805.pdf"
+			(at 86.36 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19770,8 +19526,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 384.81 33.02 0)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 82.55 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19781,8 +19537,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 384.81 33.02 0)
+		(property "TME" "https://www.tme.eu/pl/details/usb4805-03-a/zlacza-usb-i-ieee1394/gct/"
+			(at 82.55 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19792,13 +19548,61 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "4ba05029-b25c-48ac-982f-c560a7063d10")
+		(pin "A4"
+			(uuid "aa9b9be6-62bb-4752-9329-9ee32e2301ad")
+		)
+		(pin "A9"
+			(uuid "2689b997-ad50-42ef-9a74-83cdc1caf4e0")
+		)
+		(pin "A1"
+			(uuid "30621d6c-167e-40b8-a323-08f17d7d7d5f")
+		)
+		(pin "A8"
+			(uuid "d908ce01-8795-43f7-8920-5124991b5d50")
+		)
+		(pin "A6"
+			(uuid "1f24e0da-1d2d-4a49-a653-9797c2d52997")
+		)
+		(pin "B9"
+			(uuid "265fb9b0-b7bf-4c98-b354-c6ca872d92f7")
+		)
+		(pin "B12"
+			(uuid "0711de4f-c22b-4804-a067-446085f01ef6")
+		)
+		(pin "SH"
+			(uuid "be27d580-1c44-4d36-9c67-addcd7db327a")
+		)
+		(pin "B7"
+			(uuid "556d0f6b-4490-43d0-bf30-ced9751db406")
+		)
+		(pin "B5"
+			(uuid "285fe291-1562-428c-b5d6-80832e049b13")
+		)
+		(pin "B1"
+			(uuid "3c39c610-4390-466f-8829-db527a487545")
+		)
+		(pin "A12"
+			(uuid "8782c735-b4b4-40fd-85a1-3a946b62709b")
+		)
+		(pin "B6"
+			(uuid "733cca11-4a36-4f86-abd1-fea1ee4f8052")
+		)
+		(pin "B4"
+			(uuid "445d3b45-6662-4f03-b40e-58da3c1e69cb")
+		)
+		(pin "A7"
+			(uuid "e6a3ba4d-aa9d-4d0f-b82a-ddd0361a38ec")
+		)
+		(pin "A5"
+			(uuid "cf5281c1-0139-4c9e-84fb-1638f8b72467")
+		)
+		(pin "B8"
+			(uuid "2673a499-aae9-4b72-a693-5cc049653f16")
 		)
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR025")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -19816,7 +19620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d87b4c50-d415-4886-8dab-6655d63f6527")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 121.92 208.915 0)
 			(hide yes)
 			(show_name no)
@@ -19876,7 +19680,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -19894,7 +19698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da84945e-bcc8-4f66-995f-aff7bfa65b7c")
-		(property "Reference" "C1"
+		(property "Reference" "C6"
 			(at 237.49 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19916,7 +19720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 234.6452 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -19958,7 +19762,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -19976,7 +19780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db22415b-e50d-4f38-9b2e-8758a278a5a7")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 233.68 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -20036,7 +19840,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -20053,7 +19857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dba17a4a-f74c-4299-aad9-3a8dfaeb9d41")
-		(property "Reference" "R13"
+		(property "Reference" "R3"
 			(at 71.12 91.186 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20073,7 +19877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 71.12 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -20115,7 +19919,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R13")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -20133,7 +19937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df6dd349-a927-41d8-8a65-3603c20e5cae")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR09"
 			(at 113.03 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -20193,7 +19997,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR015")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -20211,7 +20015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfa61301-5f7d-441b-81ed-66c65524b747")
-		(property "Reference" "C4"
+		(property "Reference" "C9"
 			(at 271.78 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20233,7 +20037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 268.9352 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -20275,7 +20079,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C4")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -20292,7 +20096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2cf66d8-e2aa-4636-92a6-57de46c06859")
-		(property "Reference" "C23"
+		(property "Reference" "C2"
 			(at 45.72 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20314,7 +20118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 54.3052 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -20356,7 +20160,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C23")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -20374,7 +20178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2daee9a-a8d5-44ce-a867-80f96b406067")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG05"
 			(at 191.77 248.285 0)
 			(hide yes)
 			(show_name no)
@@ -20434,7 +20238,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#FLG02")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -20452,7 +20256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e572119f-46ae-4368-88fb-4a008ca0d275")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR033"
 			(at 374.65 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -20512,7 +20316,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR018")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -20529,7 +20333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5c8c59c-e7cc-42cd-b8a9-a5c91dc8401c")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 323.342 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20629,7 +20433,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -20646,7 +20450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e851ef8e-d9b4-4424-b682-1dc9a115ffd7")
-		(property "Reference" "R16"
+		(property "Reference" "R1"
 			(at 65.278 41.656 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20668,7 +20472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 67.31 43.942 90)
 			(hide yes)
 			(show_name no)
@@ -20710,7 +20514,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R16")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -20728,7 +20532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e931e6be-ecff-4c90-ad6a-755f362e3608")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 364.49 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20810,7 +20614,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -20828,7 +20632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ba7622-7f06-4b85-9aba-6dcc12bde74e")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 191.77 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20910,7 +20714,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -20918,7 +20722,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 392.43 223.52 0)
+		(at 392.43 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20928,8 +20732,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9c3cf7a-f7f2-41c3-b296-4d0f64c425a3")
-		(property "Reference" "C8"
-			(at 396.24 222.2499 0)
+		(property "Reference" "C21"
+			(at 396.24 227.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20940,7 +20744,7 @@
 			)
 		)
 		(property "Value" "15p"
-			(at 396.24 224.7899 0)
+			(at 396.24 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20950,8 +20754,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 393.3952 227.33 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 393.3952 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20962,7 +20766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.43 223.52 0)
+			(at 392.43 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20973,7 +20777,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 392.43 223.52 0)
+			(at 392.43 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20992,7 +20796,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C8")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -21009,7 +20813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec676a6b-5a19-4491-818f-bcc44968b557")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 322.326 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21031,7 +20835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 320.04 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -21079,47 +20883,48 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 392.43 229.87 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 384.81 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eda77dec-96e0-466b-92c4-03deada1c687")
-		(property "Reference" "#PWR020"
-			(at 392.43 236.22 0)
-			(hide yes)
+		(uuid "ed89a17a-2212-42c6-92d1-6ba4264b5555")
+		(property "Reference" "H4"
+			(at 387.35 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 392.43 234.95 0)
+		(property "Value" "MH"
+			(at 387.35 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 392.43 229.87 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 384.81 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21130,7 +20935,82 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.43 229.87 0)
+			(at 384.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 384.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Deck_Mainboard"
+				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 392.43 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eda77dec-96e0-466b-92c4-03deada1c687")
+		(property "Reference" "#PWR040"
+			(at 392.43 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 392.43 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 392.43 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 392.43 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21141,7 +21021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 392.43 229.87 0)
+			(at 392.43 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21157,7 +21037,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#PWR020")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -21175,7 +21055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa5bc67c-2c55-4a87-923f-76d524f72803")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG01"
 			(at 86.36 40.005 0)
 			(hide yes)
 			(show_name no)
@@ -21235,7 +21115,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "#FLG04")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -21252,7 +21132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb3a9327-92f3-4a73-9e2d-2c2b99e684a4")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 181.102 220.218 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21274,7 +21154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 177.8 220.472 90)
 			(hide yes)
 			(show_name no)
@@ -21316,7 +21196,7 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -21334,7 +21214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fce70229-60e1-4550-9dd6-c6293895baf0")
-		(property "Reference" "C10"
+		(property "Reference" "C14"
 			(at 294.64 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21356,7 +21236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 291.7952 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -21398,15 +21278,15 @@
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "C10")
+					(reference "C14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 384.81 44.45 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 384.81 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21415,9 +21295,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe963788-b310-4818-a4c4-8343591e6bac")
-		(property "Reference" "H4"
-			(at 387.35 41.9099 0)
+		(uuid "fee5a532-7a3a-42ac-8246-e926031df39d")
+		(property "Reference" "H6"
+			(at 387.35 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21428,7 +21308,7 @@
 			)
 		)
 		(property "Value" "MH"
-			(at 387.35 44.4499 0)
+			(at 387.35 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21438,8 +21318,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 384.81 44.45 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 384.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21450,7 +21330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 384.81 44.45 0)
+			(at 384.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21460,8 +21340,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 384.81 44.45 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 384.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21470,14 +21350,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "b6c78da2-cfae-4353-a0d4-2886743f0aa7")
 		)
 		(instances
 			(project "Deck_Mainboard"
 				(path "/653fee09-60af-4ff9-bcce-52e593d583e2"
-					(reference "H4")
+					(reference "H6")
 					(unit 1)
 				)
 			)

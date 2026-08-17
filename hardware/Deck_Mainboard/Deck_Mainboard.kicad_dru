@@ -1,0 +1,4 @@
+(version 1)
+(rule "USB_Tracks_Only_Clearance"
+   (constraint clearance (min 1mm))
+   (condition "A.type == 'track' && (A.NetName == '/USB_D+' || A.NetName == '/USB_D-')"))
