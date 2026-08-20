@@ -11711,7 +11711,7 @@
 		)
 		(uuid "4b0040a7-78f7-4575-97dc-9f8d9af551b8")
 	)
-	(label "SW1"
+	(label "SW6"
 		(at 241.3 50.8 0)
 		(effects
 			(font
@@ -11961,7 +11961,7 @@
 		)
 		(uuid "84001b2d-7e5f-49e1-9e3f-5f0234167a9d")
 	)
-	(label "SW6"
+	(label "SW1"
 		(at 241.3 63.5 0)
 		(effects
 			(font
@@ -12031,7 +12031,7 @@
 		)
 		(uuid "9187c208-2883-4d16-ac8a-afcf9db4dd05")
 	)
-	(label "SW5"
+	(label "SW2"
 		(at 241.3 60.96 0)
 		(effects
 			(font
@@ -12061,7 +12061,7 @@
 		)
 		(uuid "9a424fc5-fc0c-4708-a4b7-32a471807a25")
 	)
-	(label "SW2"
+	(label "SW5"
 		(at 241.3 53.34 0)
 		(effects
 			(font
@@ -12091,7 +12091,7 @@
 		)
 		(uuid "a2c01805-e974-4e3f-8e1b-11054af9549e")
 	)
-	(label "SW4"
+	(label "SW3"
 		(at 241.3 58.42 0)
 		(effects
 			(font
@@ -12191,7 +12191,7 @@
 		)
 		(uuid "b5c437c6-6cf1-4582-bc40-6b5ae83da22c")
 	)
-	(label "SW3"
+	(label "SW4"
 		(at 241.3 55.88 0)
 		(effects
 			(font
