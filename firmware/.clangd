@@ -1,0 +1,4 @@
+If:
+  PathMatch: board/pol_deck.h
+Diagnostics:
+  Suppress: '*'

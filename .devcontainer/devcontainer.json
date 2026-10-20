@@ -1,0 +1,42 @@
+{
+    "name": "Embedded Development",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "remoteUser": "root",
+    "workspaceFolder": "/workspace",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    ],
+    "runArgs": [
+    "--add-host=host.docker.internal:host-gateway"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "llvm-vs-code-extensions.vscode-clangd",
+                "ms-vscode.cpptools-themes",
+                "yzhang.markdown-all-in-one",
+                "mcu-debug.debug-tracker-vscode",
+                "twxs.cmake",
+                "xaver.clang-format",
+                "CppcheckSolutionsAB.cppcheck-official",
+                "mcu-debug.mcu-debug@prerelease",
+                "mcu-debug.mcu-debug-proxy@prerelease"
+            ],
+            "settings": {
+                "cmake.generator": "Ninja",
+                "cmake.configureOnOpen": false,
+                "C_Cpp.intelliSenseEngine": "disabled",
+                "clangd.arguments": [
+                    "--background-index",
+                    "--clang-tidy",
+                    "--completion-style=detailed"
+                ]
+            }
+        }
+    },
+    "forwardPorts": [],
+    "postCreateCommand": "git config --global --add safe.directory '*' && cmake --version && ninja --version && arm-none-eabi-gcc --version && python3 --version"
+}

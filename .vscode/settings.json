@@ -1,0 +1,41 @@
+{
+    "cmake.configureOnOpen": false,
+    "cmake.generator": "Ninja",
+
+    "C_Cpp.intelliSenseEngine": "disabled",
+
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+
+    "cppcheck-official.enable": true,
+    "cppcheck-official.minSeverity": "warning",
+    "cppcheck-official.path": "",
+    "cppcheck-official.arguments": 
+        "--enable=warning,style,performance,portability --inline-suppr --suppressions-list=${workspaceFolder}/firmware/cppcheck.supp",
+
+    "clangd.arguments": [
+        "--background-index",
+        "--clang-tidy",
+        "--completion-style=detailed",
+        "--header-insertion=iwyu",
+        "--compile-commands-dir=${workspaceFolder}/firmware/build/debug",
+        "--query-driver=/usr/bin/arm-none-eabi-gcc,/usr/bin/arm-none-eabi-g++"
+    ],
+
+    "clang-format.style": "file",
+
+    "[c]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+        "editor.formatOnSave": true
+    },
+
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+        "editor.formatOnSave": true,
+    },
+
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c"
+    }
+}

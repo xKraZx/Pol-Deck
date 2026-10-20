@@ -1,0 +1,32 @@
+# Build
+build/
+out/
+
+# VS Code
+.vscode/*.log
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Generated
+*.elf
+*.uf2
+*.bin
+*.hex
+*.map
+
+# Documentation
+docs/html/
+docs/latex/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

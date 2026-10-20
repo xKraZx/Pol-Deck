@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RP2350 Debug",
+            "type": "mcu-debug",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/firmware",
+            "executable": "${workspaceFolder}/firmware/build/debug/pol-deck-project.elf",
+            "servertype": "openocd",
+            "serverpath": "/usr/bin/openocd",
+            "gdbPath": "arm-none-eabi-gdb",
+            "hostConfig": {
+                "enabled": true,
+                "type": "auto"
+            },
+            "configFiles": [
+                "interface/cmsis-dap.cfg",
+                "target/rp2350.cfg"
+            ],
+            "runToEntryPoint": "main"
+        }
+    ]
+}
